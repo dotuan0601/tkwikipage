@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setup_args = dict(
     name='tkwikipage',
-    version='1.1',
+    version='1.4',
     description='Send email with smtp setup',
     long_description_content_type="text/markdown",
     long_description=README,

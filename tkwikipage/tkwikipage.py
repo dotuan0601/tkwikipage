@@ -63,7 +63,7 @@ class Section():
         self._content += description+"\n\n"
 
     def heading(self, text, level=1):
-        self._content += '{}{}{}'.format('#'*level, text, '#'*level)
+        self._content += '{} {} {}'.format('#'*level, text, '#'*level)+"\n"
         
     def multi_content_part(self, list_content_parts):
         for content_part in list_content_parts:
