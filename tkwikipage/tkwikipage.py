@@ -97,7 +97,7 @@ class Section():
         self._content += HelperDocs.hyper(text, link)+"\n"
 
     def li(self, li):
-        self._content += '* {}'.format(li)+"\n"
+        self._content += '* {}'.format(li)+"\n\n"
         
     def image(self, img_url, alt='default alt'):
         self._content += '![{}]({})'.format(alt, img_url)+"\n\n"
