@@ -74,7 +74,7 @@ class Section():
 
     def table(self, two_dimentional_list):
         self._content += "|" + "|".join(two_dimentional_list[0]) + "|\n"
-        self._content += "|" + "-|"*len(two_dimentional_list) + "\n"
+        self._content += "|" + "-|"*len(two_dimentional_list[0]) + "\n"
         for i in range(1, len(two_dimentional_list)):
             self._content += "|" + "|".join(list(map(lambda x: str(x), two_dimentional_list[i]))) + '|\n'
             
